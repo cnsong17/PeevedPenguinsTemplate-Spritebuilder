@@ -46,7 +46,7 @@
     // ensure followed obhject is in visible when starting
     self.position = ccp(0, 0);
     CCActionFollow *follow = [CCActionFollow actionWithTarget:penguin worldBoundary:self.boundingBox];
-    //STOPPED HERE*************
+    [self runAction:follow];
 }
 
 @end
